@@ -1,2 +1,3 @@
-# PuissanceQuatreTwitter
-Puissance quatre sur Twitter : twitter.com/PuissanceQuatre
+# PuissanceQuatre_bot
+
+Puissance quatre sur Twitter : https://twitter.com/PuissanceQuatre
