@@ -91,3 +91,8 @@ ENV/
 
 # Github Sync
 github-sync.php
+
+#Other files
+old_bot.py
+config.py
+*.dSYM
