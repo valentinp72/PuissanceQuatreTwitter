@@ -19,7 +19,7 @@ RESET   = '\033[0m'
 WHITE   = '\033[37m'
 
 
-
+# Print the message to the terminal and the log file
 def logMsg(color, name, message):
 
     #Print message into the terminal
@@ -38,3 +38,10 @@ def logMsg(color, name, message):
             logFile.write("\n\n\n" + time + " STARTING " + text)
         else:
             logFile.write(           time + " INFO     " + text)
+
+
+# Print the game to the terminal
+def printGame(game):
+    for i in game:
+        print i
+    print "\n"

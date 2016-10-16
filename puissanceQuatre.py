@@ -24,8 +24,6 @@ from gridFunctions import *
 
 # ---------
 # Init game
-N_COLUMN = 7
-N_LINE   = 5
 
 game = [[0 for x in range(N_COLUMN)] for x in range(N_LINE)]
 
@@ -50,5 +48,15 @@ except tweepy.TweepError:
 
 api = tweepy.API(auth)
 
+column = 2
+line = addPiece(game, PLAYER_1, column)
+if line == -1:
+    print "error"
+else:
+    print "Piece added in : ["+ str(line) + "]["+str(column)+"]"
+    printGame(game)
 
+
+
+logMsg(WARNING, "Puissance Quatre", "End of PuissanceQuatre.py, quitting.")
 #api.update_status('Yeah, that rocks!')
