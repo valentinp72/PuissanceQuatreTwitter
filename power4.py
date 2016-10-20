@@ -1,12 +1,12 @@
 '''
-    PuissanceQuatre.py
+    power4.py
     Valentin Pelloin - 14/10/2016
     MIT License
     Version 0.1
 
     ====
 
-    This is the main file for the twitter bot: 'PuissanceQuatre'
+    This is the main file for the twitter bot power4
 
 '''
 
@@ -30,7 +30,7 @@ game = [[0 for x in range(N_COLUMN)] for x in range(N_LINE)]
 
 # Clear terminal and print log
 os.system('clear')
-logMsg(HEADER, "Puissance Quatre", "Loading puissance quatre bot ...\n")
+logMsg(HEADER, "power4", "Loading power4 bot ...\n")
 
 
 
@@ -58,5 +58,5 @@ else:
 
 
 
-logMsg(WARNING, "Puissance Quatre", "End of PuissanceQuatre.py, quitting.")
+logMsg(WARNING, "power4", "End of power4.py, quitting.")
 #api.update_status('Yeah, that rocks!')
